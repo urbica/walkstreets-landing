@@ -6,7 +6,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   background-color: #DEDEDE;
   font-size: 20px;
-  min-width: 992px;
+  min-width: 993px;
 }
 
 .wrapper {
@@ -43,10 +43,15 @@ body {
 
 figure {
   margin: 0;
+}
+
+
+.about figure {
+  margin: 0;
   width: 100%;
 }
 
-figure > img {
+.about figure > img {
   width: inherit;
   object-fit: cover;
 }
@@ -156,11 +161,23 @@ h1 {
 }
 
 .sidewalks .container {
-  padding-left: 270px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+
+  }
 }
 
 .crosswalk .container {
-  padding-left: 300px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+  .crosswalk .container {
+
+  }
 }
 
 .sidewalks .article-right,
