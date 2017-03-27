@@ -175,8 +175,8 @@ h1 {
 }
 
 @media screen and (max-width: 992px) {
-  .crosswalk .container {
-
+  .crosswalk .container figure {
+    order: 1;
   }
 }
 
